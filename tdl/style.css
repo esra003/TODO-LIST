@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 336px;
+    height: 217px;
+    
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+     padding-bottom: 19px;
+}
+
+.content-box{
+    width: 336px;
+    height: 28px;
+    background-color: #FFDC40;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.text{
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    
+}
+.elements {
+    display: flex;
+    padding: 11px 30px 11px 0;
+    justify-content: end;
+ 
+  }
+  .sortElements {
+    cursor: pointer;
+  }
+  .sortElementsReverse {
+    cursor: pointer;
+    display: none;
+  }
+.box{
+    margin: auto;
+    width: 198px;
+    height: 34px;
+    text-align: center;
+    margin-top: 18px;
+}
+ .buttonText {
+    margin: auto;
+    background-color: rgb(131, 58, 224);
+    height: 42px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 71px;
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 63px;
+  }
+  .buttonText .button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+  }
+  .buttonText p {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 19px;
+  }
+  .buttonText .plus {
+    background-color: rgb(153, 83, 241);
+    border-radius: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+  }
+  .delete {
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 6px;
+    cursor: pointer;
+  }
+  .delete:hover {
+    transition: 0.5s ease-in-out;
+    background-color: rgb(131, 58, 224);
+  }
+.input{
+    margin: 0 30px 18px 30px;
+    border-radius: 10px;
+    
+    border: 1px solid rgb(196, 196, 196);
+    padding: 10px 30px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    width:250px;
+    height: 20px;
+   margin: auto;
+   margin-top: -120px;
+}
+    
+#input{
+    border: none;
+}
